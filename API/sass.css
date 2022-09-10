@@ -1,0 +1,47 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Rick_and_Morty_title_card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body p {
+  color: white;
+  font-size: 20px;
+}
+
+body h1 {
+  color: aliceblue;
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+button {
+  width: 100px;
+  border-radius: 30px;
+  background-color: grey;
+}
+
+.present {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=sass.css.map */
